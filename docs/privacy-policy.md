@@ -3,7 +3,7 @@
 
 
 *Please note that this privacy statement will regularly be updated to reflect any change in the way we handle your personal information or any changes in applicable laws.*
-This Privacy Notice describes the policies and procedures of DApps Platform, Inc., (“we,” “our,” or “us”) pertaining to the collection, use, and disclosure of your information on [hkmuchinfo.com](https://trustwallet.com/hkmuchinfo.com) and related mobile applications and products we offer (the “Services” or “Chain Gate Wallet”).
+This Privacy Notice describes the policies and procedures of DApps Platform, Inc., (“we,” “our,” or “us”) pertaining to the collection, use, and disclosure of your information on [hkmuchinfo.com](https://trustwallet.com/hkmuchinfo.com) and related mobile applications and products we offer (the “Services” or “Chain Gate Wallet” ).
 **OVERVIEW**
 Your right to privacy and the protection of your personal data is important to us. The following sections provide further details as to how we process your personal information through Chain Gate Wallet. We don’t share your information with third parties except to deliver you our Services and products, comply with the law, make Chain Gate Wallet better, protect our rights, or effectuate a business transfer. We’re not a huge, faceless corporation. We’re just developers trying to deliver an incredible product. If you have any questions or concerns about this policy, please reach out to us at hkmuchinfo@gmail.com.
 **HOW DO YOU ACCEPT THIS POLICY?**
