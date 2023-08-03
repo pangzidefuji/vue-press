@@ -1,8 +1,6 @@
 module.exports = {
     title: 'Chain door wallet',
-    description: '',
-    base: '/vue-press/',
-      dist: 'docs',
+    
     themeConfig: {
         navbar: [
             { text: 'Terms of Service', link: '/' },
@@ -12,5 +10,7 @@ module.exports = {
             '/',
             '/privacy-policy'
         ],
-    }
+    },
+    base: '/vue-press/',
+      dist: 'docs',
   }
