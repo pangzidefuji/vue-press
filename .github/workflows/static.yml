@@ -1,0 +1,33 @@
+name: Deploy VuePress
+
+on:
+  push:
+    branches:
+      - main  # 指定推送到 main 分支时触发部署
+  workflow_dispatch:  # 允许手动触发部署
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # 指定使用 Node.js 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build VuePress
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/.vuepress/dist  # 指定要部署的目录
+
