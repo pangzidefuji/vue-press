@@ -7,7 +7,14 @@ yarn install
 
 # 生成静态文件
 yarn docs:build
-
+# 检查静态文件是否存在
+if [ -d "./docs/.vuepress/dist" ]; then
+  echo "npm run docs:build 执行成功！"
+  # 在这里添加部署到服务器或其他操作
+else
+  echo "npm run docs:build 执行失败！"
+  # 在这里可以进行错误处理或其他操作
+fi
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
