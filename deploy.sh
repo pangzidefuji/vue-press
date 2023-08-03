@@ -4,7 +4,8 @@
 set -e
 # 查看 Node.js 版本号
 node -v
-
+# 输出环境变量
+echo "Operating System: $RUNNER_OS"
 yarn install
 
 # 生成静态文件
