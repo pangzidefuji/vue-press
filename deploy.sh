@@ -2,6 +2,8 @@
 
 # 确保脚本抛出遇到的错误
 set -e
+# 查看 Node.js 版本号
+node -v
 
 yarn install
 
