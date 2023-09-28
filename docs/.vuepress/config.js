@@ -2,7 +2,11 @@ module.exports = {
     title: 'Chain door wallet',
     
     themeConfig: {
-        navbar: [
+        // navbar: [
+        //     { text: 'Terms of Service', link: '/' },
+        //     { text: 'Privacy Policy', link: '/privacy-policy' },
+        // ],
+        nav: [
             { text: 'Terms of Service', link: '/' },
             { text: 'Privacy Policy', link: '/privacy-policy' },
         ],
