@@ -1,4 +1,4 @@
-# Terms of Service6
+# Terms of Service
 
 
 
