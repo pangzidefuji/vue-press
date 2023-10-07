@@ -24,7 +24,7 @@ module.exports = {
             children: [  
               '/privacy-policy.md',   
             ],  
-          }, 
+          }, ]
         },
     // base: '/vue-press/',
       // dist: 'docs',
