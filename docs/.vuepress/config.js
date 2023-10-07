@@ -22,7 +22,7 @@ module.exports = {
             title: 'Privacy Policy',  
             collapsable: true,  
             children: [  
-              '/privacy-policy',   
+              '/privacy-policy.md',   
             ],  
           }, 
         },
