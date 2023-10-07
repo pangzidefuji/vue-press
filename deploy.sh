@@ -3,6 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 # 查看 Node.js 版本号
+# 安装 n（如果未安装）
+curl -L https://git.io/n-install | bash
+
+# 设置要使用的 Node.js 版本
+n 14.21.3
 node -v
 # 输出环境变量
 echo "Operating System: $RUNNER_OS"
