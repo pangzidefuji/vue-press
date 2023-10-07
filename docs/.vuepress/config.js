@@ -13,4 +13,6 @@ module.exports = {
       '/privacy-policy',
     ],
   },
+  
+  base: '/vue-press/',
 }
