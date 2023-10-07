@@ -8,6 +8,7 @@ curl -L https://git.io/n-install | bash
 
 # 设置要使用的 Node.js 版本
 n 14.21.3
+echo "123121"
 node -v
 # 输出环境变量
 echo "Operating System: $RUNNER_OS"
