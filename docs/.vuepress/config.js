@@ -1,8 +1,7 @@
 module.exports = {
   title: 'Chain door wallet',
   themeConfig: {
-    sidebarDepth: 0,  
-    collapse: false, 
+    sidebar: 'auto', 
     nav: [ // 导航栏链接
       { text: 'Terms of Service', link: '/' }, // 首页链接
       { text: 'Privacy Policy', link: '/privacy-policy' }, // 隐私政策页面链接
