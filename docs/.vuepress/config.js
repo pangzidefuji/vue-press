@@ -8,10 +8,11 @@ module.exports = {
       // 添加更多的链接...
     ],
     
-    sidebar: [ // 侧边栏
-      '/',
-      '/privacy-policy',
-    ],
+    sidebar: { // 侧边栏
+      '/privacy-policy/':[
+        '/'
+      ],
+    },
   },
   
   base: '/vue-press/',
