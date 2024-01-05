@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Chain door wallet',
+  title: 'Chain door wallet1',
   themeConfig: {
     sidebar: 'auto', 
     nav: [ // 导航栏链接
